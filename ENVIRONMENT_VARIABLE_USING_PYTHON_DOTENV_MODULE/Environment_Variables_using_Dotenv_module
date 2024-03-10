@@ -1,0 +1,13 @@
+#installation
+pip install python-dotenv
+
+#create file .env
+touch .env
+#then inside that file write secrets like credentials password and api_token, user_id etc 
+
+#then create .gitignore file you dont want peoples see your secret code 
+touch .gitignnore
+echo ".env" >>.gitignore
+
+after that check python code 
+
