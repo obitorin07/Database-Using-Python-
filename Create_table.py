@@ -18,7 +18,6 @@ table_name ='CREATE TABLE STUDENT(NAME VARCHAR(255),ROLL_NO INT);'
 cursor.execute(table_name)
 
 connect.close()
-cursor.close()
 
 """
 use LEARN_MYSQL;
